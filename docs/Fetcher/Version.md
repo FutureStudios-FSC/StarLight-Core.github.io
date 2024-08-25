@@ -79,8 +79,8 @@ public static GameCoreInfo GetGameCore(string versionId, string root = ".minecra
 
 ```csharp
 // 获取所有版本信息集合
-var javaList = JavaUtil.GetJavas();
+var gcList = GameCoreUtil.GetGameCores();
 
 // 获取指定版本信息
-var javaVersion = JavaUtil.GetJavaInfo();
+var gcInfo = GameCoreUtil.GetGameCore();
 ```
